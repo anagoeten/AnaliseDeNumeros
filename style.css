@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(154, 154, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.adicionar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding-left: 10px;
+}
+
+button {
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.finalizar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+select {
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #000;
+
+}
